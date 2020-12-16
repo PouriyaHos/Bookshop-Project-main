@@ -34,8 +34,7 @@ login.onclick = ()=>{
                 setTimeout(()=>{
                 input[1].nextElementSibling.textContent = "";
                 }, 2000);
-            } 
-        
+            }        
     }
 
     }
