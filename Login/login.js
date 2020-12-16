@@ -9,6 +9,7 @@ var form = document.querySelector('form');
 form.onsubmit = ()=>{return false}
 
 login.onclick = ()=>{
+
     if ((input[0].value != "") && (input[1].value != ""))
     {
         if ((input[0].value == sessionStorage.getItem("username")) && (input[1].value 
@@ -18,7 +19,7 @@ login.onclick = ()=>{
             document.cookie = "username"+input[0].value;
             document.cookie = "password"+input[1].value;
         }
-        else
+    else
         {
             if ((input[0].value != sessionStorage.getItem("username"))) 
             {
@@ -35,24 +36,26 @@ login.onclick = ()=>{
                 input[1].nextElementSibling.textContent = "";
                 }, 2000);
             }        
-    }
+        }
 
     }
-    else
-    {
-        if(input[0].value == "")
+
+        else
+
         {
-            input[0].nextElementSibling.textContent = "Username is empty";
-            setTimeout(()=>{
-                input[0].nextElementSibling.textContent = "";
-            }, 2000);
+            if(input[0].value == "")
+            {
+                input[0].nextElementSibling.textContent = "Username is empty";
+                setTimeout(()=>{
+                    input[0].nextElementSibling.textContent = "";
+                }, 2000);
+            }
+            if(input[1].value == "")
+            {
+                input[1].nextElementSibling.textContent = "Password is empty";
+                setTimeout(()=>{
+                    input[1].nextElementSibling.textContent = "";
+                }, 2000);
+            }
         }
-        if(input[1].value == "")
-        {
-            input[1].nextElementSibling.textContent = "Password is empty";
-            setTimeout(()=>{
-                input[1].nextElementSibling.textContent = "";
-            }, 2000);
-        }
-    }
 }
