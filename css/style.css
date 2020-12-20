@@ -21,9 +21,6 @@ a {
 }
 
 /* Header Styling */
-.login{
- margin: 0 10px 0 0;
-}
 
 header {
   display: flex;
@@ -33,9 +30,25 @@ header {
 
 header .container {
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 40px 0 40px 115px;
   width: 90%;
 }
+
+
+
+header .login {
+  margin: 0 auto;
+  padding: 40px 95px 40px 0;
+  width: 90%;
+}
+
+header .login h1 {
+  font-family: "Vollkorn", serif;
+  font-weight: 500;
+  font-size: 2em;
+  text-align: right;
+}
+
 
 /* Banner Styling */
 .banner {
@@ -68,7 +81,7 @@ header .container {
 }
 
 .banner-text {
-  margin: 0 0 3rem 0;
+  margin: 0 0 3rem 50px;
 }
 
 .banner-text h1 {

@@ -27,7 +27,7 @@ header {
 
 header .container {
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 40px 0px 40px 75px;
   width: 90%;
 }
 
@@ -37,6 +37,22 @@ header .container h1 {
   font-size: 2em;
   text-align: left;
 }
+
+header .login {
+  margin: 0 auto;
+  padding: 40px 75px 40px 0;
+  width: 90%;
+}
+
+header .login h1 {
+  font-family: "Vollkorn", serif;
+  font-weight: 500;
+  font-size: 2em;
+  text-align: right;
+}
+
+
+
 
 /* main-content styling */
 

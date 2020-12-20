@@ -19,24 +19,24 @@ login.onclick = ()=>{
             document.cookie = "username"+input[0].value;
             document.cookie = "password"+input[1].value;
         }
-    else
-        {
-            if ((input[0].value != sessionStorage.getItem("username"))) 
-            {
-                input[0].nextElementSibling.textContent = "Username NOT match";
-                setTimeout(()=>{
-                input[0].nextElementSibling.textContent = "";
-                }, 2000);
-            } 
+    // else
+    //     {
+    //         if ((input[0].value != sessionStorage.getItem("username"))) 
+    //         {
+    //             input[0].nextElementSibling.textContent = "Username NOT match";
+    //             setTimeout(()=>{
+    //             input[0].nextElementSibling.textContent = "";
+    //             }, 2000);
+    //         } 
         
-            if ((input[1].value != sessionStorage.getItem("password"))) 
-            {
-                input[1].nextElementSibling.textContent = "Password NOT match";
-                setTimeout(()=>{
-                input[1].nextElementSibling.textContent = "";
-                }, 2000);
-            }        
-        }
+    //         if ((input[1].value != sessionStorage.getItem("password"))) 
+    //         {
+    //             input[1].nextElementSibling.textContent = "Password NOT match";
+    //             setTimeout(()=>{
+    //             input[1].nextElementSibling.textContent = "";
+    //             }, 2000);
+    //         }        
+    //     }
 
     }
 
