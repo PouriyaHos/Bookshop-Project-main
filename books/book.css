@@ -107,13 +107,16 @@ p {
   background-color: cornflowerblue;
   border: none;
   margin: 1rem 0 0.5rem 0;
-  color: gold;
+  color: rgb(255, 215, 0);
 }
 .book-purchase .wishlist {
   border: none;
   background-color: white;
   color: #876d66;
 }
+
+
+
 /* Footer styling */
 footer {
   height: 50px;

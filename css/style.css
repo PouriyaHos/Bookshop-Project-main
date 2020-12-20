@@ -34,11 +34,17 @@ header .container {
   width: 90%;
 }
 
+<<<<<<< HEAD
 /* Banner Styling */.
 
 .login {
   padding: 0 30px;
 
+=======
+/* Banner Styling */
+.login {
+  padding: 0 30px;
+>>>>>>> 1ff951efa5065d6d90c664d91d5502e268eac07f
 }
 
 .banner {
