@@ -34,7 +34,13 @@ header .container {
   width: 90%;
 }
 
-/* Banner Styling */
+/* Banner Styling */.
+
+.login {
+  padding: 0 30px;
+
+}
+
 .banner {
   color: #fff;
   position: relative;
