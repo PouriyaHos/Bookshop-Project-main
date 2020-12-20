@@ -1,3 +1,26 @@
+body {
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+  
+h1 {
+    font-family: "Vollkorn", serif;
+    font-weight: 500;
+    font-size: 2em;
+    text-align: left;
+    }
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    margin: 0 auto;
+    /* padding: 40px 0; */
+    width: 90%;
+    border-bottom: 1px solid rgb(87, 87, 87);
+}
+
 form {
     width: 600px;
     margin: 200px auto; 
@@ -20,10 +43,8 @@ input {
 
     width: 50%;
     display: block;
-    /* padding: 10%; */
     border: 1px solid #797979;
     font-size: 20px;
-    /* margin-left: 160px; */
     border-radius: 5px;
 }
 
