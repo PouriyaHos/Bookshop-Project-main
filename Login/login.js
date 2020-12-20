@@ -1,6 +1,6 @@
 window.onload = ()=> {
-    this.sessionStorage.setItem("username", "api-client");
-    this.sessionStorage.setItem("password", "KEV9EwC5SEvk4dF");
+    this.sessionStorage.setItem("username", '${username}');
+    this.sessionStorage.setItem("password", '${password}');
 }
 
 var input = document.getElementsByTagName('input');
