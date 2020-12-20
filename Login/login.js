@@ -9,7 +9,6 @@ var form = document.querySelector('form');
 form.onsubmit = ()=>{return false}
 
 login.onclick = ()=>{
-
     if ((input[0].value != "") && (input[1].value != ""))
     {
         if ((input[0].value == sessionStorage.getItem("username")) && (input[1].value 
